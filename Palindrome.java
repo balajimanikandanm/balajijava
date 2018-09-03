@@ -4,14 +4,14 @@ class Palindrome
 {
 public static void main(String args[])
 {
-int r,tmp,s=0,n;
+int rr,tmp,s=0,n;
 Scanner sc=new Scanner(System.in);
 n=sc.nextInt();
 tmp=n;
 while(n>0)
 {
-r=n%10;
-s=(s*10)+r;
+rr=n%10;
+s=(s*10)+rr;
 n=n/10;
 }
 if(tmp==s)
